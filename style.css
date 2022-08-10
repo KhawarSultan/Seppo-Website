@@ -1,0 +1,70 @@
+.btn {
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px 30px;
+    color: var(--Secondary-color);
+    background-color: var(--Primary-color);
+    border: var(--Primary-border-color);
+    font-size: 20px;
+    transition: 0.2s;
+    letter-spacing: 1px;
+}
+
+.btn:hover {
+    background-color: transparent;
+    border: var(--Primary-border-color);
+    color: var(--Primary-color);
+    transition: 0.7s;
+}
+
+.container-Background{
+    background: url(/images/hero_image_01.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    
+    /* text-align: center; */
+    align-items: center;
+    align-content: center;
+}
+
+.page-title-holder {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #47ea4e;
+    width: 285px;
+    display: inline-block;
+    z-index: 98;
+    height: 130px;
+}
+
+.page-title-holder:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 130px 60px 0 0;
+    border-color: #47ea4e transparent transparent transparent;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateX(100%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
