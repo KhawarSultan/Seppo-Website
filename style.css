@@ -1,3 +1,5 @@
+
+
 .btn {
     text-decoration: none;
     display: inline-block;
@@ -23,7 +25,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    
     /* text-align: center; */
     align-items: center;
     align-content: center;
@@ -52,18 +53,26 @@
     right: 0;
     transform: translateX(100%);
 }
+/* .carousel-item {
+    min-height: 280px;
+} */
+
+.carousel-control-prev{
+    /* background-color: #47ea4e; */
+    /* margin-top:250px !important; */
+}
 
 
-
-
-
-
-
-
-
-
-
-
+.container-Background-2 {
+    background: url(/images/quote_image_01.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    /* text-align: center; */
+    align-items: center;
+    align-content: center;
+}
 
 
 
