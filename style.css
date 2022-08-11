@@ -23,7 +23,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    /* text-align: center; */
     align-items: center;
     align-content: center;
 }
@@ -52,14 +51,6 @@
     transform: translateX(100%);
 }
 
-/* .carousel-item {
-    min-height: 280px;
-} */
-
-.carousel-control-prev {
-    /* background-color: #47ea4e; */
-    /* margin-top:250px !important; */
-}
 
 
 .container-Background-2 {
@@ -68,23 +59,110 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    /* text-align: center; */
     align-items: center;
     align-content: center;
 }
 
-.Image-Hover {
-    width: 100%;
-}
 
-.Image-Hover img {
-        transition: 0.2s;
-    width: 100%;
-}
 
-.Image-Hover img:hover {
-    transform: scale(1.1);
-    transition: 0.35s;
-    opacity: 0.8;
+
+
+.Parent-Image-Hover {
+    width: 100%;
+    overflow: hidden;
     cursor: pointer;
+}
+
+.bg-one {
+    background-image: url(/images/blog_img_01.jpg);
+}
+
+.bg-two {
+    background-image: url(/images/blog_img_02.jpg);
+}
+
+.bg-three {
+    background-image: url(/images/blog_img_03.jpg);
+}
+
+.child-Image-Hover {
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    transition: .3s;
+}
+
+.child-Image-Hover:hover {
+    opacity: 0.8;
+    transform: scale(1.1);
+}
+
+
+
+
+.portfolio-Hover {
+    position: relative;
+}
+
+.portfolio-Hover img {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+.layer {
+    background: transparent;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+
+.layer p {
+    width: 100%;
+    color: white;
+    bottom: 0;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    transform: translateX(-53%);
+    transition: 0.4s;
+    opacity: 0;
+}
+
+
+
+.layer:hover p {
+    bottom: 40%;
+    opacity: 1;
+}
+
+.layer h3 {
+    width: 100%;
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+    letter-spacing: 0.5px;
+    bottom: 0;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    transform: translateX(-53%);
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.layer:hover h3 {
+    bottom: 36%;
+    opacity: 1;
+}
+
+.layer:hover {
+    background: rgb(0, 0, 0);
+    cursor: pointer;
+    opacity: 1;
 }

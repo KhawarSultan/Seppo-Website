@@ -77,6 +77,7 @@ body {
 
 
 
+
 .Link {
     font-size: var(--nav-font-size);
     color: var(--Secondary-color);
@@ -91,6 +92,10 @@ body {
 .Link:hover {
     color: var(--Primary-color);
     transition: 0.7s;
+}
+
+.active {
+    color: var(--Primary-color);
 }
 
 .container-div {
@@ -129,4 +134,8 @@ body {
 
     }
 
+    .latest-posts-background-featured-image-holder {
+        height: 500px;
+
+    }
 }
