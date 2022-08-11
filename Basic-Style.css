@@ -13,7 +13,7 @@
 :root {
     --Primary-color: #47ea4e;
     --Secondary-color: white;
-    --ternory-color: white;
+    --ternory-color: rgb(177, 177, 177);
 
     --P-font-size: 18px;
     --h1-font-size: 70px;
@@ -38,7 +38,7 @@ a {
 p {
     font-family: 'Poppins-Regular';
     font-size: var(--P-font-size);
-
+    color: var(--ternory-color);
 }
 
 h1 {
@@ -110,6 +110,27 @@ body {
     align-content: center;
 }
 
+.row-div-2 {
+    align-items: center;
+    align-content: center;
+}
+
+
+@media screen and (max-width: 765px) {
+    .member-info {
+
+        margin-top: 0px;
+        margin-left: 0px;
+
+    }
+
+    .member-Social {
+
+        margin-left: 0px;
+
+    }
+}
+
 @media screen and (max-width: 550px) {
     :root {
         --h1-font-size: 55px;
@@ -125,6 +146,8 @@ body {
     .page-title-holder:after {
         border-width: 120px 40px 0 0;
     }
+
+
 }
 
 @media screen and (max-width: 450px) {
@@ -138,4 +161,6 @@ body {
         height: 500px;
 
     }
+
+
 }

@@ -166,3 +166,60 @@
     cursor: pointer;
     opacity: 1;
 }
+
+
+
+
+.right {
+    margin: 0% 2% 0% 0%;
+    width: 50%;
+    border-radius: 10px;
+    margin-left: -200px;
+    background-color: #cadbed;
+    transition: 0.5s;
+}
+
+.right:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+
+
+.member-info {
+    background-color: #fff;
+    padding: 80px 80px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 460px;
+    margin-left: -130px;
+    text-align: left;
+    position: relative;
+    z-index: 31;
+}
+
+.member-Social {
+    background-color: var(--Primary-color);
+    padding: 20px 20px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -60px;
+    margin-left: -230px;
+    text-align: left;
+    position: relative;
+    z-index: 31;
+}
+
+
+.Social {
+    text-align: center;
+}
+
+.Social a {
+    color: white;
+    display: inline-block;
+    font-size: 25px;
+
+}
