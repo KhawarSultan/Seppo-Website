@@ -21,7 +21,8 @@
 
 
     --h2-font-size: 60px;
-    --h3-font-size: 20px;
+    --h3-font-size: 35px;
+    --h4-font-size: 25px;
     --nav-font-size: 15px;
 
     --Primary-border-color: #47ea4e 2px solid;
@@ -58,6 +59,13 @@ h3 {
     font-family: 'Poppins-Regular';
     font-weight: bolder;
     font-size: var(--h3-font-size);
+    letter-spacing: 1.2px;
+}
+
+h4 {
+    font-family: 'Poppins-Regular';
+    font-weight: bolder;
+    font-size: var(--h4-font-size);
     letter-spacing: 1.2px;
 }
 
@@ -98,20 +106,27 @@ body {
 }
 
 @media screen and (max-width: 550px) {
-
-
-
-
     :root {
         --h1-font-size: 55px;
-    --h2-font-size: 45px;
+        --h2-font-size: 45px;
 
     }
 
+    .page-title-holder {
+        width: 265px;
+        height: 120px;
+    }
 
+    .page-title-holder:after {
+        border-width: 120px 40px 0 0;
+    }
+}
 
+@media screen and (max-width: 450px) {
+    :root {
+        --h1-font-size: 45px;
+        --h2-font-size: 40px;
 
-
-
+    }
 
 }
