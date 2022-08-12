@@ -5,6 +5,7 @@
   <title>Seppo</title>
   <!-- Required meta tags -->
   <meta charset="utf-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="/bootstrap.css">
@@ -21,7 +22,7 @@
 
 
   <!-- NAVBAR -->
-  <nav class="navbar navbar-expand-lg navbar-dark sticky" style="background-color: black; ">
+  <nav class="navbar navbar-expand-lg navbar-dark sticky" id="NAVBAR" style="background-color: black; ">
     <div class="container-fluid px-4 ">
       <a class="navbar-brand" href="#">
         <img src="/Images/logo.png" alt="..." height="50">
@@ -33,71 +34,50 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto  ">
           <li class="nav-item py-3 alig ">
-            <a class="Link active " href="#">Home</a>
+            <a class="Link active " href="#HOME">Home</a>
           </li>
           <li class="nav-item py-3">
-            <a class="Link " href="#SERVICES">Services</a>
+            <a class="Link" href="#ABOUT">About</a>
           </li>
           <li class="nav-item py-3">
-            <a class="Link" href="#">About</a>
-          </li>
-          <li class="nav-item py-3">
-            <a class="Link Contact" href="#">Clients</a>
+            <a class="Link Contact" href="#CLIENTS">Clients</a>
           </li>
           <li class="nav-item py-3 alig">
-            <a class="Link" href="#">News</a>
+            <a class="Link" href="#NEWS">News</a>
           </li>
           <li class="nav-item py-3">
-            <a class="Link" href="#">Portfolio</a>
+            <a class="Link" href="#PORTFOLIO">Portfolio</a>
           </li>
           <li class="nav-item py-3">
-            <a class="Link" href="#">Pricing</a>
+            <a class="Link" href="#PRICING">Pricing</a>
           </li>
           <li class="nav-item py-3">
-            <a class="Link Contact" href="#">Team</a>
+            <a class="Link Contact" href="#TEAM">Team</a>
           </li>
           <li class="nav-item py-3">
-            <a class="Link" href="#">Skills</a>
+            <a class="Link" href="#SKILLS">Skills</a>
           </li>
           <li class="nav-item py-3">
-            <a class="Link" href="#">Milestones</a>
+            <a class="Link" href="#MILESTONES">Milestones</a>
           </li>
           <li class="nav-item py-3">
-            <a class="Link Contact" href="#">Contact</a>
+            <a class="Link Contact" href="#CONTACT">Contact</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
+<a class="fa-solid fa-arrow-up upward-Arrow" href="#NAVBAR"></a>
+
+
+
   <!-- HOME -->
-  <div class="container-fluid container-Background" style="padding: 82px 0 ;">
+  <div class="container-fluid container-Background" id="HOME" style="padding: 82px 0 ;">
     <div class="container px-md-5 px-3   ">
       <div class="row .row-div py-5  ">
         <div class="col-12 text-md-start text-center py-5 px-md-3 px-0  ">
           <h1 class="pb-5 text-white ">
-            Technology <br>
-            & Visual Agency
-          </h1>
-          <a class="btn rounded-pill" href="#"> LEARN MORE</a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <!-- SERVICES -->
-  <div class="container-fluid " id="SERVICES" style="position: relative; background-color: black;padding: 130px 0px ;">
-    <div class="page-title-holder">
-      <h4 class="text-center p-md-5 p-5" style="color: white;">
-
-        SERVICES
-      </h4>
-    </div>
-    <div class="container  px-5 ">
-      <div class="row .row-div py-5">
-        <div class="col-12 text-md-start text-center py-5">
-          <h1 class="pb-5 text-white">
             Technology <br>
             & Visual Agency
           </h1>
@@ -144,7 +124,7 @@
 
 
   <!-- CLIENTS -->
-  <div class="container-fluid container-Background">
+  <div class="container-fluid container-Background" id="CLIENTS">
     <div class="container-md container-fluid  py-5">
       <div class="row py-5  ">
         <div class="col-12 text-md-start text-center " style="background-color: black; padding: 90px 0px; ">
@@ -238,12 +218,6 @@
       </div>
     </div>
   </div>
-
-
-
-
-
-
 
   <!-- NEWS -->
   <div class="container-fluid px-md-0 px-1" id="NEWS"
@@ -354,180 +328,344 @@
     </div>
   </div>
 
+  <!-- PRICING -->
+  <div class="container-fluid px-md-0 px-1" id="PRICING" style="position: relative; background-color: white; "
+    style="position: relative; background-color: white; padding: 130px 0px 50px 0px;">
+    <div class="page-title-holder">
+      <h4 class="text-center p-md-5 p-5" style="color: white;">
+        PRICING
+      </h4>
+    </div>
+    <div class="container px-md-5 px-4">
+      <div class="row py-5 ">
+
+        <div class="col-lg-4 col-md-6 col-12 px-lg-4 px-md-2  bg-danger mb-md-0 mb-5 ">
+
+          <div class="bg-info px-lg-5 px-md-3 px-0 text-md-start text-center boorder">
+
+            <h4 class="py-4 " style="color: black;">BASIC</h4>
+            <h1 style="color:var(--Primary-color) ;">$25</h1>
+            <h4 class="py-3" style="color: rgb(177, 177, 177);">PER MONTH</h4>
+
+
+            <div class="mb-4 bg-success">
+              <p style="color: black;"> <span><i class="fa fa-check "
+                    style="color:var(--Primary-color) ; font-size: 18px; padding-right: 6px;"
+                    aria-hidden="true"></i></span>
+                Unlimited Support </p>
+            </div>
+            <div class="mb-4">
+              <p style="color: black;"> <span><i class="fa fa-check"
+                    style="color:var(--Primary-color) ; font-size: 18px; padding-right: 6px;"
+                    aria-hidden="true"></i></span> 5GB
+                Server Space</p>
+
+            </div>
+            <div class="mb-4">
+              <p style="color: black;"> <span><i class="fa fa-check"
+                    style="color:var(--Primary-color) ; font-size: 18px; padding-right: 6px;"
+                    aria-hidden="true"></i></span> 2 Users
+                per Project</p>
+            </div>
+            <div class="mb-4">
+              <p style="color: black;"> <span><i class="fa fa-close"
+                    style="color: rgb(177, 177, 177); font-size: 20px; padding-right: 6px;"
+                    aria-hidden="true"></i></span> Email
+                Integration </p>
+            </div>
+            <div class="mb-4">
+              <p style="color: black;"> <span><i class="fa fa-close"
+                    style="color: rgb(177, 177, 177); font-size: 20px; padding-right: 6px;"
+                    aria-hidden="true"></i></span>
+                Unlimited Download</p>
+            </div>
+            <div class="text-center my-5">
+              <a class="btn rounded-pill" style="padding: 12px 40px;" href="#"> CHOOSE PLAN</a>
+            </div>
+          </div>
+
+
+        </div>
+        <div class="col-lg-4 col-md-6 col-12 px-lg-4 px-md-2  bg-danger mb-md-0 mb-5">
+
+          <div class="bg-info px-lg-5 px-md-3 px-0 text-md-start text-center boorder">
+
+            <h4 class="py-4 " style="color: black;">ADVANCED</h4>
+            <h1 style="color:var(--Primary-color) ;">$50</h1>
+            <h4 class="py-3" style="color: rgb(177, 177, 177);">PER MONTH</h4>
+
+
+            <div class="mb-4 bg-success">
+              <p style="color: black;"> <span><i class="fa fa-check "
+                    style="color:var(--Primary-color) ; font-size: 18px; padding-right: 6px;"
+                    aria-hidden="true"></i></span>
+                Unlimited Support </p>
+            </div>
+            <div class="mb-4">
+              <p style="color: black;"> <span><i class="fa fa-check"
+                    style="color:var(--Primary-color) ; font-size: 18px; padding-right: 6px;"
+                    aria-hidden="true"></i></span> 5GB
+                Server Space</p>
+
+            </div>
+            <div class="mb-4">
+              <p style="color: black;"> <span><i class="fa fa-check"
+                    style="color:var(--Primary-color) ; font-size: 18px; padding-right: 6px;"
+                    aria-hidden="true"></i></span> 2
+                Users
+                per Project</p>
+            </div>
+            <div class="mb-4">
+              <p style="color: black;"> <span><i class="fa fa-check"
+                    style="color:var(--Primary-color) ; font-size: 20px; padding-right: 6px;"
+                    aria-hidden="true"></i></span> Email
+                Integration </p>
+            </div>
+            <div class="mb-4">
+              <p style="color: black;"> <span><i class="fa fa-close"
+                    style="color: rgb(177, 177, 177); font-size: 20px; padding-right: 6px;"
+                    aria-hidden="true"></i></span>
+                Unlimited Download</p>
+            </div>
+            <div class="text-center my-5">
+              <a class="btn rounded-pill" style="padding: 12px 40px;" href="#"> CHOOSE PLAN</a>
+            </div>
+          </div>
+
+
+        </div>
+        <div class="col-lg-4 col-md-6 col-12 px-lg-4 px-md-2  bg-danger ">
+
+          <div class="bg-info px-lg-5 px-md-3 px-0 text-md-start text-center boorder">
+
+            <h4 class="py-4 " style="color: black;">EXPERT</h4>
+            <h1 style="color:var(--Primary-color) ;">$75</h1>
+            <h4 class="py-3" style="color: rgb(177, 177, 177);">PER MONTH</h4>
+
+
+            <div class="mb-4 bg-success">
+              <p style="color: black;"> <span><i class="fa fa-check "
+                    style="color:var(--Primary-color) ; font-size: 18px; padding-right: 6px;"
+                    aria-hidden="true"></i></span>
+                Unlimited Support </p>
+            </div>
+            <div class="mb-4">
+              <p style="color: black;"> <span><i class="fa fa-check"
+                    style="color:var(--Primary-color) ; font-size: 18px; padding-right: 6px;"
+                    aria-hidden="true"></i></span> 5GB
+                Server Space</p>
+
+            </div>
+            <div class="mb-4">
+              <p style="color: black;"> <span><i class="fa fa-check"
+                    style="color:var(--Primary-color) ; font-size: 18px; padding-right: 6px;"
+                    aria-hidden="true"></i></span> 2
+                Users
+                per Project</p>
+            </div>
+            <div class="mb-4">
+              <p style="color: black;"> <span><i class="fa fa-check"
+                    style="color:var(--Primary-color) ; font-size: 20px; padding-right: 6px;"
+                    aria-hidden="true"></i></span> Email
+                Integration </p>
+            </div>
+            <div class="mb-4">
+              <p style="color: black;"> <span><i class="fa fa-check"
+                    style="color:var(--Primary-color) ; font-size: 20px; padding-right: 6px;"
+                    aria-hidden="true"></i></span>
+                Unlimited Download</p>
+            </div>
+            <div class="text-center my-5">
+              <a class="btn rounded-pill" style="padding: 12px 40px;" href="#"> CHOOSE PLAN</a>
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
 
 
   <!--TEAM -->
-  <div class="container-fluid bg-danger " id="PORTFOLIO" style="position: relative; background-color: white; ">
+  <div class="container-fluid bg-danger " id="TEAM" style="position: relative; background-color: white; ">
     <div class="page-title-holder">
       <h4 class="text-center p-md-5 p-5" style="color: white;">
         TEAM
       </h4>
     </div>
-    <div class="container px-md-5 px-3 bg-info">
+    <div class="container px-md-5 px-3 bg-info pt-md-0 pt-5">
+      <div class="px-md-5 px-0 pt-md-0 pt-5">
 
-      <div class="row ">
-        <div class="col-md-6 col-12 px-0 bg-success pt-md-0 pt-5 About-img">
+        <div class="row ">
+          <div class="col-md-6 col-12 px-0 bg-success pt-md-0 pt-5 About-img">
 
-          <img src="/images/about_item_01.jpg" alt="" width="90%">
-
-        </div>
-        <div class="col-md-6 col-12 px-0 bg-success ">
-
-          <div class="member-info w-100 text-md-start text-center p-lg-5 p-md-0 p-3">
-            <div class="p-4 ">
-
-              <p>CEO</p>
-              <h3>Marty Stone</h3>
-              <p class="py-md-0 py-3">Code the energy hidden in matter citizens of distant epochs sun. Citizens of
-                distant epochs encyclopaedia
-                galant
-                ctica
-                the ash of stellar alchemy Vangelis white dwarf adipisci velit. Nemo enim ipsam volupta tem quia
-                voluptas
-                sit
-                aspernatur
-                aut odit aut fugit radio telescope quis nostrum exercitatio nem ullam corporis suscipit laboriosam quis.
-              </p>
-            </div>
-
-          </div>
-          <div class="col-lg-6 col-md-10 col-12 px-0 bg-success ">
-
-            <div class="member-Social w-100">
-
-
-              <a href="#" target="_blank">
-                <span class="fa fa-facebook px-2"></span>
-              </a>
-              <a href="#" target="_blank">
-                <span class="fa fa-twitter px-2"></span>
-              </a>
-              <a href="#" target="_blank">
-                <span class="fa fa-instagram px-2"></span>
-              </a>
-              <a href="#" target="_blank">
-                <span class="fa fa-vimeo px-2"></span>
-              </a>
-              <a href="#" target="_blank">
-                <span class="fa fa-behance px-2"></span>
-              </a>
-            </div>
-
-
-          </div>
-        </div>
-
-
-
-
-      </div>
-
-      <div class="row ">
-        <div class="col-md-6 col-12 px-0 bg-success About-img">
-
-          <img src="/images/about_item_02.jpg" alt="" width="90%">
-
-        </div>
-        <div class="col-md-6 col-12 px-0 bg-success ">
-
-          <div class="member-info w-100 text-md-start text-center p-lg-5 p-md-0 p-3">
-            <div class="p-4 ">
-
-              <p>DESIGNER</p>
-              <h3>John Williams</h3>
-              <p class="py-md-0 py-3 ">Code the energy hidden in matter citizens of distant epochs sun. Citizens of
-                distant epochs encyclopaedia galant ctica
-                the ash of stellar alchemy Vangelis white dwarf adipisci velit. Nemo enim ipsam volupta tem quia
-                voluptas
-                sit aspernatur
-                aut odit aut fugit radio telescope quis nostrum exercitatio nem ullam corporis suscipit laboriosam quis.
-              </p>
-            </div>
+            <img src="/images/about_item_01.jpg" alt="" width="90%">
 
           </div>
           <div class="col-md-6 col-12 px-0 bg-success ">
 
-            <div class="member-Social w-100">
+            <div class="member-info w-100 text-md-start text-center p-lg-5 p-md-0 p-3">
+              <div class="p-4 ">
 
+                <p>CEO</p>
+                <h3>Marty Stone</h3>
+                <p class="py-md-0 py-3">Code the energy hidden in matter citizens of distant epochs sun. Citizens of
+                  distant epochs encyclopaedia
+                  galant
+                  ctica
+                  the ash of stellar alchemy Vangelis white dwarf adipisci velit. Nemo enim ipsam volupta tem quia
+                  voluptas
+                  sit
+                  aspernatur
+                  aut odit aut fugit radio telescope quis nostrum exercitatio nem ullam corporis suscipit laboriosam
+                  quis.
+                </p>
+              </div>
 
-              <a href="#" target="_blank">
-                <span class="fa fa-facebook px-2"></span>
-              </a>
-              <a href="#" target="_blank">
-                <span class="fa fa-twitter px-2"></span>
-              </a>
-              <a href="#" target="_blank">
-                <span class="fa fa-instagram px-2"></span>
-              </a>
-              <a href="#" target="_blank">
-                <span class="fa fa-vimeo px-2"></span>
-              </a>
-              <a href="#" target="_blank">
-                <span class="fa fa-behance px-2"></span>
-              </a>
             </div>
+            <div class="col-lg-8 col-md-10 col-12 px-0 bg-success ">
+
+              <div class="member-Social w-100">
 
 
+                <a href="#" target="_blank">
+                  <span class="fa fa-facebook px-2"></span>
+                </a>
+                <a href="#" target="_blank">
+                  <span class="fa fa-twitter px-2"></span>
+                </a>
+                <a href="#" target="_blank">
+                  <span class="fa fa-instagram px-2"></span>
+                </a>
+                <a href="#" target="_blank">
+                  <span class="fa fa-vimeo px-2"></span>
+                </a>
+                <a href="#" target="_blank">
+                  <span class="fa fa-behance px-2"></span>
+                </a>
+              </div>
+
+
+            </div>
           </div>
+
+
+
+
         </div>
 
+        <div class="row ">
+          <div class="col-md-6 col-12 px-0 bg-success About-img">
 
-
-
-      </div>
-
-      <div class="row ">
-        <div class="col-md-6 col-12 px-0 bg-success About-img">
-
-          <img src="/images/about_item_03.jpg" alt="" width="90%">
-
-        </div>
-        <div class="col-md-6 col-12 px-0 bg-success ">
-
-          <div class="member-info w-100 text-md-start text-center p-lg-5 p-md-0 p-3">
-            <div class="p-4 ">
-
-              <p>DEVELOPER</p>
-              <h3>Vanessa Doe</h3>
-              <p class="py-md-0 py-3 ">Code the energy hidden in matter citizens of distant epochs sun. Citizens of
-                distant epochs encyclopaedia galant ctica
-                the ash of stellar alchemy Vangelis white dwarf adipisci velit. Nemo enim ipsam volupta tem quia
-                voluptas
-                sit aspernatur
-                aut odit aut fugit radio telescope quis nostrum exercitatio nem ullam corporis suscipit laboriosam quis.
-              </p>
-            </div>
+            <img src="/images/about_item_02.jpg" alt="" width="90%">
 
           </div>
           <div class="col-md-6 col-12 px-0 bg-success ">
 
-            <div class="member-Social w-100">
+            <div class="member-info w-100 text-md-start text-center p-lg-5 p-md-0 p-3">
+              <div class="p-4 ">
 
+                <p>DESIGNER</p>
+                <h3>John Williams</h3>
+                <p class="py-md-0 py-3 ">Code the energy hidden in matter citizens of distant epochs sun. Citizens of
+                  distant epochs encyclopaedia galant ctica
+                  the ash of stellar alchemy Vangelis white dwarf adipisci velit. Nemo enim ipsam volupta tem quia
+                  voluptas
+                  sit aspernatur
+                  aut odit aut fugit radio telescope quis nostrum exercitatio nem ullam corporis suscipit laboriosam
+                  quis.
+                </p>
+              </div>
 
-              <a href="#" target="_blank">
-                <span class="fa fa-facebook px-2"></span>
-              </a>
-              <a href="#" target="_blank">
-                <span class="fa fa-twitter px-2"></span>
-              </a>
-              <a href="#" target="_blank">
-                <span class="fa fa-instagram px-2"></span>
-              </a>
-              <a href="#" target="_blank">
-                <span class="fa fa-vimeo px-2"></span>
-              </a>
-              <a href="#" target="_blank">
-                <span class="fa fa-behance px-2"></span>
-              </a>
             </div>
+            <div class="col-md-8 col-12 px-0 bg-success ">
+
+              <div class="member-Social w-100">
 
 
+                <a href="#" target="_blank">
+                  <span class="fa fa-facebook px-2"></span>
+                </a>
+                <a href="#" target="_blank">
+                  <span class="fa fa-twitter px-2"></span>
+                </a>
+                <a href="#" target="_blank">
+                  <span class="fa fa-instagram px-2"></span>
+                </a>
+                <a href="#" target="_blank">
+                  <span class="fa fa-vimeo px-2"></span>
+                </a>
+                <a href="#" target="_blank">
+                  <span class="fa fa-behance px-2"></span>
+                </a>
+              </div>
+
+
+            </div>
           </div>
+
+
+
+
         </div>
 
+        <div class="row ">
+          <div class="col-md-6 col-12 px-0 bg-success About-img">
+
+            <img src="/images/about_item_03.jpg" alt="" width="90%">
+
+          </div>
+          <div class="col-md-6 col-12 px-0 bg-success ">
+
+            <div class="member-info w-100 text-md-start text-center p-lg-5 p-md-0 p-3">
+              <div class="p-4 ">
+
+                <p>DEVELOPER</p>
+                <h3>Vanessa Doe</h3>
+                <p class="py-md-0 py-3 ">Code the energy hidden in matter citizens of distant epochs sun. Citizens of
+                  distant epochs encyclopaedia galant ctica
+                  the ash of stellar alchemy Vangelis white dwarf adipisci velit. Nemo enim ipsam volupta tem quia
+                  voluptas
+                  sit aspernatur
+                  aut odit aut fugit radio telescope quis nostrum exercitatio nem ullam corporis suscipit laboriosam
+                  quis.
+                </p>
+              </div>
+
+            </div>
+            <div class="col-md-8 col-12 px-0 bg-success ">
+
+              <div class="member-Social w-100">
+
+
+                <a href="#" target="_blank">
+                  <span class="fa fa-facebook px-2"></span>
+                </a>
+                <a href="#" target="_blank">
+                  <span class="fa fa-twitter px-2"></span>
+                </a>
+                <a href="#" target="_blank">
+                  <span class="fa fa-instagram px-2"></span>
+                </a>
+                <a href="#" target="_blank">
+                  <span class="fa fa-vimeo px-2"></span>
+                </a>
+                <a href="#" target="_blank">
+                  <span class="fa fa-behance px-2"></span>
+                </a>
+              </div>
+
+
+            </div>
+          </div>
 
 
 
+
+        </div>
       </div>
 
 
@@ -535,10 +673,8 @@
   </div>
 
 
-
-
   <!-- SKILLS -->
-  <div class="container-fluid " id="ABOUT" style="position: relative; background-color: white; padding-top: 130px;">
+  <div class="container-fluid " id="SKILLS" style="position: relative; background-color: white; padding-top: 130px;">
     <div class="page-title-holder">
       <h4 class="text-center p-md-5 p-5" style="color: white;">
         SKILLS
@@ -546,7 +682,7 @@
     </div>
     <div class="container  px-md-5 px-3  ">
       <div class="row row-div py-5  ">
-        <div class="col-md-6 col-12 text-md-start text-center py-5 px-md-3 px-0   ">
+        <div class="col-lg-6  col-12 text-md-start text-center py-5 px-md-3 px-0   ">
           <p class="pb-3">
             OUR NUMBERS
             </h1>
@@ -561,7 +697,7 @@
           </p>
           <a class="btn rounded-pill" href="#"> LEARN MORE</a>
         </div>
-        <div class="col-md-6 col-12 text-center px-md-3 px-0  ">
+        <div class="col-lg-6  col-12 text-center px-md-3 px-0  ">
           <div>
             <div class="skills-holder bg-danger">
 
@@ -622,19 +758,18 @@
     </div>
   </div>
 
-
-
   <!-- MILESTONES -->
-  <div class="container-fluid " id="ABOUT" style="position: relative; background-color: black; padding-top: 130px;">
+  <div class="container-fluid " id="MILESTONES"
+    style="position: relative; background-color: black; padding-top: 130px;">
     <div class="page-title-holder">
       <h4 class="text-center p-md-5 p-5" style="color: white;">
         MILESTONES
       </h4>
     </div>
     <div class="container  px-md-5 px-3  ">
-      <div class="row row-div py-5  ">
+      <div class="row  py-5  ">
 
-        <div class="col-md-6 col-12 text-md-start text-center py-5 px-md-3 px-0 bg-danger ">
+        <div class="col-lg-6  col-12 text-md-start text-center py-5 px-md-3 px-0 bg-danger ">
           <div class="d-md-flex ">
             <div class="milestone-num pb-md-0 pb-3">
               <h1>135</h1>
@@ -645,7 +780,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-12 text-md-start text-center py-5 px-md-3 px-0 bg-danger ">
+        <div class="col-lg-6  col-12 text-md-start text-center py-5 px-md-3 px-0 bg-danger ">
           <div class="d-md-flex ">
             <div class="milestone-num pb-md-0 pb-3">
               <h1>67K</h1>
@@ -656,7 +791,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-12 text-md-start text-center py-5 px-md-3 px-0 bg-danger ">
+        <div class="col-lg-6  col-12 text-md-start text-center py-5 px-md-3 px-0 bg-danger ">
           <div class="d-md-flex ">
             <div class="milestone-num pb-md-0 pb-3">
               <h1>74</h1>
@@ -667,7 +802,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-12 text-md-start text-center py-5 px-md-3 px-0 bg-danger ">
+        <div class="col-lg-6  col-12 text-md-start text-center py-5 px-md-3 px-0 bg-danger ">
           <div class="d-md-flex ">
             <div class="milestone-num pb-md-0 pb-3">
               <h1>389</h1>
@@ -683,9 +818,8 @@
     </div>
   </div>
 
-
   <!-- CONTACT -->
-  <div class="container-fluid " id="ABOUT" style="position: relative; background-color: white; padding-top: 130px;">
+  <div class="container-fluid " id="CONTACT" style="position: relative; background-color: white; padding-top: 130px;">
     <div class="page-title-holder">
       <h4 class="text-center p-md-5 p-5" style="color: white;">
         CONTACT
@@ -708,8 +842,27 @@
             skills, because
             that challenge is one that we are willing to accept one we are.
           </p>
-          <a class="btn rounded-pill" href="#"> LEARN MORE</a>
+          <div class="member-Social w-100 m-0 px-0 text-md-start text-center" style=" background-color: transparent;">
+
+
+            <a href="#" target="_blank" style="color: black;">
+              <span class="fa fa-facebook  " style="padding-right:5px"></span>
+            </a>
+            <a href="#" target="_blank" style="color: black;">
+              <span class="fa fa-twitter px-2"></span>
+            </a>
+            <a href="#" target="_blank" style="color: black;">
+              <span class="fa fa-instagram px-2"></span>
+            </a>
+            <a href="#" target="_blank" style="color: black;">
+              <span class="fa fa-vimeo px-2"></span>
+            </a>
+            <a href="#" target="_blank" style="color: black;">
+              <span class="fa fa-behance px-2"></span>
+            </a>
+          </div>
         </div>
+
         <!-- CONTACT FORM  -->
 
         <div class="col-md-6 col-12 text-center px-md-3 px-3 bg-info pt-3">
@@ -747,6 +900,42 @@
       </div>
     </div>
   </div>
+
+  <div class="container-fluid " style="background-color: black;">
+    <div class="row">
+      <div class="col-12">
+        <div class="text-center pt-5">
+          <img src="/images/logo.png" alt="">
+        </div>
+        <div class="member-Footer-Social w-100 text-center pt-5" style=" background-color: transparent;">
+
+
+          <a href="#" target="_blank">
+            <span class="fa fa-facebook  " style="padding-right:5px"></span>
+          </a>
+          <a href="#" target="_blank">
+            <span class="fa fa-twitter px-2"></span>
+          </a>
+          <a href="#" target="_blank">
+            <span class="fa fa-instagram px-2"></span>
+          </a>
+          <a href="#" target="_blank">
+            <span class="fa fa-vimeo px-2"></span>
+          </a>
+          <a href="#" target="_blank">
+            <span class="fa fa-behance px-2"></span>
+          </a>
+        </div>
+        <p class="text-white text-center py-4">© 2022 SEPPO by <span style="color: var(--Primary-color);">
+            KHAWAR
+          </span> </p>
+      </div>
+    </div>
+  </div>
+
+
+
+
   <script src="js/jarallax.js"></script>
   <script src="js/jarallax-element.min.js"></script>
   <script src="/bootstrap.bundle.js"></script>

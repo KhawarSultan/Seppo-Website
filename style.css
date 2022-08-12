@@ -356,43 +356,89 @@
 .contact-form input[type=text]::ms-input-placeholder,
 .contact-form input[type=email]::ms-input-placeholder,
 .contact-form textarea::ms-input-placeholder {
-        font-family: 'Poppins-Regular';
+    font-family: 'Poppins-Regular';
     color: #000;
     font-weight: 500;
     font-size: 15px;
     line-height: 25px;
 }
-/* 
-.contact-form input[name="your-name"] {
-    margin-top: 0;
-} */
 
-/* .contact-submit-holder {
-    position: relative;
-    margin-bottom: 25px;
-} */
-/* 
-.contact-form input[type=submit] {
-    color: #fff;
-    background-color: #47ea4e;
-    text-align: center;
-    padding: 10px 40px;
-    cursor: pointer;
+.member-Footer-Social {
+    padding: 20px 20px;
+    display: inline-block;
     vertical-align: middle;
-    text-decoration: none;
-    transition: all .2s linear;
-    margin-bottom: 17px;
-    display: block;
-    width: 100%;
-    line-height: 35px;
-    border: 2px solid #47ea4e;
-    border-radius: 50px;
-    font-size: 14px;
-    letter-spacing: 2px;
-    box-sizing: border-box;
+    text-align: left;
+    position: relative;
+    z-index: 31;
 }
 
-.contact-form input[type=submit]:hover {
-    background-color: #fff;
-    color: #47ea4e;
-} */
+
+.member-Footer-Social {
+    text-align: center;
+}
+
+.member-Footer-Social a {
+    color: white;
+    display: inline-block;
+    font-size: 25px;
+
+}
+
+.member-Footer-Social a:hover {
+    color: var(--Primary-color);
+    transition: 0.5s;
+}
+
+
+.boorder {
+    border: 2px solid black;
+    color: white;
+}
+
+.upward-Arrow {
+    margin-left: 20px;
+    color: var(--Primary-color);
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 50%;
+    background-color: black;
+    position: fixed;
+    margin-left: 95%;
+    margin-top: 38%;
+
+    transition: 0.3s;
+    z-index: 10000;
+}
+
+.upward-Arrow:hover {
+    background-color: var(--Primary-color);
+    color: black;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .upward-Arrow {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 1380px) {
+
+    .upward-Arrow {
+        margin-top: 40%;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+
+    .upward-Arrow {
+        display: inline;
+        margin-left: 80%;
+        margin-top: 156%;
+    }
+
+}
