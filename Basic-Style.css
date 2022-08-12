@@ -2,7 +2,6 @@
     src: url(/Font/Poppins-Regular.ttf);
     font-family: 'Poppins-Regular';
 }
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -116,7 +115,33 @@ body {
 }
 
 
+
+@media screen and (max-width: 1000px) {
+
+    .member-info {
+
+        margin-top: 160px;
+        margin-left: -100px;
+
+    }
+
+    .member-Social {
+        margin-top: -20px;
+    }
+
+
+
+}
+
+
 @media screen and (max-width: 765px) {
+
+
+
+    .About-img img {
+        width: 100%;
+    }
+
     .member-info {
 
         margin-top: 0px;
@@ -132,6 +157,9 @@ body {
 }
 
 @media screen and (max-width: 550px) {
+
+
+
     :root {
         --h1-font-size: 55px;
         --h2-font-size: 45px;
