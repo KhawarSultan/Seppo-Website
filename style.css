@@ -395,27 +395,41 @@
     color: white;
 }
 
-.upward-Arrow {
-    margin-left: 20px;
-    color: var(--Primary-color);
-    font-size: 20px;
-    padding: 20px;
-    border-radius: 50%;
-    background-color: black;
+
+
+
+
+
+.scroll-top {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(0, 0, 0);
     position: fixed;
-    margin-left: 95%;
-    margin-top: 38%;
-
-    transition: 0.3s;
-    z-index: 10000;
-}
-
-.upward-Arrow:hover {
-    background-color: var(--Primary-color);
-    color: black;
+    bottom: 10px;
+    right: 10px;
     cursor: pointer;
-    transition: 0.3s;
+    border-radius: 50px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.336);
+    /* hover effect default */
+    transform: scale(0.9);
+    transition: 0.3s ease-in-out transform;
+    /* for centering the icon */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 99999;
 }
+
+.scroll-top svg {
+    width: 50%;
+    color: #47ea4e;
+    pointer-events: none;
+}
+
+.scroll-top:hover {
+    transform: scale(1);
+}
+
 
 @media screen and (max-width: 1000px) {
 
